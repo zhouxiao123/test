@@ -1,0 +1,18 @@
+<h1>hello Spring Boot!</h1>
+<table>
+    <tr>
+        <th>消息编号</th>
+        <th>姓名</th>
+        <th>邮箱地址</th>
+        <th>电话号码</th>
+        <th>内容</th>
+    </tr>
+    <tr th:each="t:${test}">
+        <td th:text="${t.id}"></td>
+        <td th:text="${t.name}"></td>
+        <td th:text="${t.email}"></td>
+        <td th:text="${t.telphone}"></td>
+        <td th:text="${t.content}"></td>
+    </tr>
+
+</table>
