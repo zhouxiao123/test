@@ -12,5 +12,7 @@ public interface DemoRepository extends JpaRepository<TestList,Integer> {
 
     public List<TestList> findByName(String name);
 
+    public TestList findById(Integer id);
+
     public List<TestList> findAll();
 }
