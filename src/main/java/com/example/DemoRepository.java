@@ -14,4 +14,8 @@ public interface DemoRepository extends JpaRepository<TestList,Integer> {
     public TestList findById(Integer id);
 
     public List<TestList> findAll();
+
+    public TestList findOne(Integer id);
+
+
 }
