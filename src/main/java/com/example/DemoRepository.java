@@ -10,7 +10,6 @@ import java.util.List;
  */
 public interface DemoRepository extends JpaRepository<TestList,Integer> {
 
-    public List<TestList> findByName(String name);
 
     public TestList findById(Integer id);
 
