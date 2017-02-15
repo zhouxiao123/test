@@ -18,5 +18,5 @@ public interface DemoRepository extends JpaRepository<TestList,Integer> {
 
     public TestList findOne(Integer id);
 
-
+    public List<TestList> findByEmail(String email);
 }
