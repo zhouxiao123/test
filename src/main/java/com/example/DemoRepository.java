@@ -12,7 +12,7 @@ import java.util.List;
 public interface DemoRepository extends JpaRepository<TestList,Integer> {
 
 
-    public TestList findById(Integer id);
+    //public TestList findById(Integer id);
 
     public List<TestList> findAll();
 
